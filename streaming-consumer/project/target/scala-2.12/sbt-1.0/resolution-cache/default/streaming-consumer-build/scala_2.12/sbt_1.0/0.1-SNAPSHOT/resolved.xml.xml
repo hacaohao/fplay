@@ -4,7 +4,7 @@
 		module="streaming-consumer-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171111180615"
+		publication="20171113182658"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
