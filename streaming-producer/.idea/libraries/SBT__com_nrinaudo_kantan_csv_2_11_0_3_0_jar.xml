@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.nrinaudo:kantan.csv_2.11:0.3.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.nrinaudo/kantan.csv_2.11/jars/kantan.csv_2.11-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.nrinaudo/kantan.csv_2.11/srcs/kantan.csv_2.11-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

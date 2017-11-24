@@ -9,14 +9,14 @@ object StreamingConsumer {
   def main(args: Array[String]){
     Logger.getLogger("org").setLevel(Level.OFF)
     Logger.getLogger("akka").setLevel(Level.OFF)
-    
+
     val conf = new SparkConf().setAppName("streaming-consumer").setMaster("local[*]")
     val streamingContext = new StreamingContext(conf, Seconds(1))
     val stream = Consumer.getStream(streamingContext)
-    
+
     Processor.process(stream)
-    
-    streamingContext.start()       
+
+    streamingContext.start()
     streamingContext.awaitTermination()
   }
 }
