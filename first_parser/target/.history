@@ -1,0 +1,7 @@
+eclipse with-source=true
+eclipse
+exit
+eclipse
+exit
+val s = "hello world"
+exit
